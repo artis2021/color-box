@@ -1,0 +1,12 @@
+.Box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.219);
+    transition: 0.3s ease all;
+}
+
+.Box:hover{
+    transform: scale(1.1);
+}
